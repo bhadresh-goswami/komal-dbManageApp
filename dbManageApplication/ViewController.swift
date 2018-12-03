@@ -119,7 +119,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     @IBAction func btnUpdate(_ sender: UIBarButtonItem) {
-        
+         
         let UpdateQuery = "Update tblInfo Set name = '\(txtName.text!)' where id = \(txtId.text!)"
         
         var stmt:OpaquePointer?
